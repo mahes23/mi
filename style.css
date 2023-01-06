@@ -1,0 +1,1451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+overflow-x: hidden;
+   
+}
+html{
+    scroll-padding: 5rem;
+}
+header{
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    background-color: rgb(133, 57, 2);
+    background-position: fixed;
+    width: 100%;
+    height: 70px;
+}
+.nav-links{
+    margin-left: 20%;
+    margin-top: 1.5%;
+    width: 100%
+}
+.nav-links a{
+    text-decoration: none;
+    margin-left: 5%;
+    color: white;
+    text-transform: capitalize;
+   
+}
+.nav-links button{
+    margin-left: 25%;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: chocolate;
+    border: none;
+}
+.nav img{
+    width: 150px;
+     margin-left:3%;
+     height: 30px;
+     margin-top: 1%;
+    
+}
+
+.post img{
+   width: 100%;
+   position: absolute;
+   top: 0;
+   height: 790px;
+   
+}
+.postin{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    margin-top: 10%;
+   
+}
+.postin h1{
+    margin-left: 10%;
+    text-transform:capitalize;
+    font-weight: bold;
+    font-size: 70px;
+    color:white;
+}
+.postin p{
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 50%;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.postin button{
+    margin-left: 10%;
+    margin-top: 2%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    width: 20%;
+    background-color: rgb(214, 102, 22);
+    border: none;
+}
+.postin button:hover{
+    background-color: white;
+}
+.weareyou{
+    padding-top: 50%;
+    width: 100%;
+    /*background-color: aqua;*/
+    display: flex;
+}
+.right{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 1%;
+}
+.image1 img{
+    width: 90%;
+   
+}
+.left{
+    margin-top: 5%;
+    width: 100%;
+    /*background-color: blue;*/
+
+}
+.left h1{
+    margin-left: 17%;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 60px;
+    color:  rgb(214, 102, 22);
+}
+.left p{
+    margin-left: 17%;
+    margin-top: 4%;
+    font-size: 20px;
+    width: 50%;
+}
+.left button{
+    margin-left: 17%;
+    margin-top: 3%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 20%;
+    text-transform: capitalize;
+     background-color:  rgb(214, 102, 22);
+     border: none;
+     border-radius: 20px;
+}
+.left button:hover{
+    background-color: black;
+    color: white;
+}
+.service{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+}
+.ourservice{
+    background-color:rgb(150, 81, 29);
+    width: 50%;
+    height: 900px;
+}
+.ourservice h1{
+    margin-top: 40%;
+    margin-left: 30%;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-family:cursive;
+    color: white;
+}
+.ourservice p{
+    margin-left: 30%;
+    width: 380px;
+    margin-top: 2%;
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 20px;
+    
+    
+}
+.ourservice button{
+    margin-left: 30%;
+    margin-top: 2%;
+    width: 190px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(216, 96, 10);
+
+}
+.ourservice button:hover{
+    background-color: aliceblue;
+}
+.fourbox{
+   background-image: url('images/banner11.png');
+   width: 50%;
+   background-repeat: no-repeat;
+  
+   
+   
+}
+.part{
+    display: flex;
+    margin-top: 5%;
+}
+.innerfour{
+    width: 50%;
+    height: 200px;
+   height: 400px;
+   margin-left: 2%;
+}
+.innerfour img{
+    margin-left: 35%;
+    width: 25%;
+}
+.innerfour a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20%;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+.innerfour a:hover{
+    color: orangered;
+}
+.innerfour p{
+    margin-top: 10%;
+    width: 210px;
+    margin-left: 20%;
+    line-height: 30px;
+    color: white;
+    font-weight: 30px;
+    letter-spacing: 2px;
+}
+.ourproducts{
+    background-image: url('images/banner4.png');
+    margin-top: 10%;
+    background-repeat: no-repeat;
+   background-size: cover;
+    color:white;
+    
+}
+
+.ourproducts h2{
+    margin-left: 43%;
+    padding-top: 5%;
+    font-weight: 50px;
+}
+.ourproducts p{
+    margin-top: 5%;
+    margin-left: 35%;
+    text-transform: capitalize;
+    font-weight: 150px;
+    width: 550px;
+    letter-spacing: 2px;
+    
+}
+.product{
+     display: flex; 
+     margin-left:2%; 
+     margin-top: 3%;
+      
+}
+.product1{
+    background-color: white;
+    color: hsl(0, 0%, 0%);
+    width: 450px;
+    height: 500px;
+    border: 1px solid rgb(255, 253, 253);
+}
+.product1 img{
+  width: 280px;
+  margin-top: 3%;
+  margin-left: 18%;
+}
+.product1 h1{
+    margin-left: 35%;
+    margin-top: 3%;
+}
+.product1 h5{
+    width: 290px;
+    margin-left: 20%;
+    margin-top: 3%;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 20px;
+
+}
+.url{
+    display: flex;
+}
+.url li{
+    list-style: none;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+   
+.product2{
+    background-color: white;
+    color: hsl(0, 0%, 0%);
+    width: 450px;
+    height: 500px;
+    border: 1px solid rgb(255, 253, 253);
+    margin-left: 3%;
+}
+.product2 img{
+  width: 450px;
+ top: 0;
+}
+.product2 h1{
+    margin-left: 35%;
+    margin-top: 3%;
+    text-transform: uppercase;
+}
+.product2 h5{
+    width: 290px;
+    margin-left: 20%;
+    margin-top: 3%;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 20px;
+
+}
+.url{
+    display: flex;
+}
+.url li{
+    list-style: none;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.product3{
+    background-color: white;
+    color: hsl(0, 0%, 0%);
+    width: 450px;
+    height: 500px;
+    border: 1px solid rgb(255, 253, 253);
+    margin-left:3%;
+}
+.product3 img{
+  width: 450px;
+ 
+}
+.product3 h1{
+    margin-left: 35%;
+    margin-top: 3%;
+    text-transform: uppercase;
+}
+.product3 h5{
+    width: 290px;
+    margin-left: 20%;
+    margin-top: 3%;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 20px;
+
+}
+.url{
+    display: flex;
+}
+.url li{
+    list-style: none;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.button{
+    margin-top: 4%;
+    margin-left: 40%;
+
+    
+}
+.button button{
+   
+    text-transform: uppercase;
+    border-radius: 50px;
+    width: 300px;
+    height: 60px;
+    background-color: rgb(214, 102, 22);
+}
+.button button:hover{
+    background-color: white;
+}
+.blog{
+    margin-top: 5%;
+  
+}
+.blog h1{
+margin-left: 35%;
+text-transform: uppercase;
+letter-spacing: 5px;
+font-size: 35px;
+
+}
+.blog h2{
+    width: 700px;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 25%;
+}
+.blog p{
+    margin-top: 3%;
+    margin-left: 30%;
+    font-size: 20px;
+    width: 650px;
+}
+.blog1{
+     margin-top: 5%;
+     margin-left: 28%;
+     width: 730px;
+}
+.blog1 img{
+    width: 700px;
+}
+.blog1 h1{
+    margin-left: 3%;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+.blog1 h1:hover{
+    color: chocolate;
+}
+hr{
+    margin-top:3%;
+     border-color:black;
+}
+
+.fonts{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.fonts button{
+    width: 100px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-transform: capitalize;
+    background-color: chocolate;
+    border-radius: 20px;
+    border: none;
+}
+.fonts button:hover{
+    background-color: white;
+}
+.fonts li{
+    list-style: none;
+    margin-left: 15%;
+}
+.logo{
+    display: flex;
+    margin-top: 2%;
+}
+
+.both{
+    text-transform: capitalize;
+}
+.both li{
+    list-style: none;
+}
+.both p{
+    margin-left: 0;
+    margin-top: 0;
+   
+}
+.map p{
+    margin-top: 3%;
+    width:100%;
+    position:absolute;
+}
+.map iframe{
+    width: 100%;
+    height: 700px;
+}
+.two{
+    position:absolute;
+  margin-left: 50%;
+  display: flex;
+  margin-top: 20%;
+  background-color: white;
+  height: 450px;
+ 
+}
+.one{
+    /*border-right: 2px solid black;*/
+    width: 400px;
+}
+.one h1{
+    margin-top: 15%;
+    text-transform: capitalize;
+    margin-left: 35%;
+    font-family: cursive;
+
+}
+.one p{
+    width: 140px;
+    margin-left: 35%;
+    margin-top: 3%;
+    text-transform: capitalize;
+}
+.one h4{
+    margin-left: 35%;
+}
+.get{
+    width: 300px;
+}
+.get h2{
+    margin-top: 15%;
+    text-transform: capitalize;
+    font-family: cursive;
+   
+}
+.get p{
+    margin-top: 5%;
+    width: 250px;
+}
+.get h1{
+    margin-top: 10%;
+    color: rgb(204, 125, 68);
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: cursive;
+}
+.get button{
+    margin-top: 15%;
+    width: 100px;
+    border-radius: 20px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: none;
+    background-color:chocolate;
+}
+.get button:hover{
+    background-color: aliceblue;
+}
+.hole{
+    position: relative;
+    margin-top: 50%;
+    background-color:#554940;
+    display: flex;
+height:300px;
+}
+.hole1{
+    margin-top: 2%;
+    width: 250px;
+    margin-left: 10%;
+    color: aliceblue;
+    
+}
+.bothside{
+    margin-top: 5%;
+    display: flex;
+   
+}
+.side2{
+    margin-left: 19%;
+}
+.hole1 li{
+    list-style: none;
+    text-transform: capitalize;
+}
+.hole1 li:hover{
+    color: rgb(128, 72, 33);
+}
+.hole2{
+    margin-top: 2%;
+    width: 250px;
+    margin-left: 10%;
+    color: aliceblue;
+
+}
+.hole2 p{
+    margin-top: 3%;
+}
+.hole3{
+    margin-top: 2%;
+    width: 250px;
+    margin-left: 25%;
+    color: aliceblue;
+
+}
+.hole3 i{
+    background-color: gray;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.hole i:hover{
+    background-color: rgb(114, 56, 14);
+}
+@media only screen and (max-width:600px){
+    .nav img{
+        width: 100px;
+        height: 20px;
+        margin-top: 3%;
+        margin-left:3%;
+    }
+    .nav{
+        display: flex;
+        background-color: rgb(133, 57, 2);
+        background-position: fixed;
+        width: 100%;
+        height: 50px;
+    }
+    .nav-links{
+        margin-left: 5%;
+        margin-top: 1.5%;
+        width: 100%
+    }
+    .nav-links a{
+        text-decoration: none;
+        margin-left: 2%;
+        color: white;
+        text-transform: capitalize;
+        margin-top: 5%;
+       
+    }
+    .nav-links button{
+        margin-left: 5%;
+        width: 55px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: chocolate;
+        border: none;
+    }
+    .postin button{
+        margin-left: 5%;
+        margin-top: 3%;
+        width: 150px;
+        text-transform: capitalize;
+        border-radius: 20px;
+        background-color: rgb(214, 102, 22);
+        border: none;
+    }
+    .weareyou{
+        padding-top: 130%;
+        width: 100%;
+        /*background-color: aqua;*/
+        display: block;
+    }
+    .right{
+        display: flex;
+        margin-top: 35%;
+        margin-left: 1%;
+    }
+    .image1 img{
+        width: 90%;
+       
+    }
+    .left{
+        margin-top: 5%;
+        width: 100%;
+        /*background-color: blue;*/
+    
+    }
+    .left h1{
+        margin-left: 17%;
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 60px;
+        color:  rgb(214, 102, 22);
+    }
+    .left p{
+        margin-left: 17%;
+        margin-top: 4%;
+        font-size: 20px;
+        width: 65%;
+       
+    }
+    .left button{
+        margin-left: 17%;
+        margin-top: 3%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 40%;
+        text-transform: capitalize;
+         background-color:  rgb(214, 102, 22);
+         border: none;
+         border-radius: 20px;
+    }
+    .left button:hover{
+        background-color: black;
+        color: white;
+    }
+    .service{
+        margin-top: 4%;
+        display: block;
+        width: 100%;
+    }
+    .ourservice{
+        background-color:rgb(150, 81, 29);
+        width: 100%;
+        height: 400px;
+       
+    }
+    .fourbox{
+        background-image: url('images/banner11.png');
+        width: 100%;
+        background-repeat: no-repeat;
+       
+        
+        
+     }
+     .innerfour{
+        width: 50%;
+        height: 200px;
+       border-right: 0 0 0 solid 1px black;
+       height: 400px;
+       margin-left: 2%;
+    }
+    .innerfour img{
+        margin-left: 35%;
+        width: 25%;
+    }
+    .innerfour a{
+        text-decoration: none;
+        color: black;
+       text-align: center;
+       margin-left: 10%;
+        font-weight: bolder;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+    }
+    .innerfour a:hover{
+        color: orangered;
+    }
+    .innerfour p{
+        margin-top: 10%;
+        width: 210px;
+        margin-left: 5%;
+       text-align: center;
+        line-height: 30px;
+        color: white;
+        font-weight: 30px;
+        letter-spacing: 2px;
+    }
+     .part{
+         display: flex;
+         margin-top: 5%;
+         margin-left: 5%;
+     }
+     
+     .ourproducts{
+        background-image: url('images/banner4.png');
+        margin-top: 10%;
+        background-repeat: no-repeat;
+       background-size: cover;
+        color:white;
+        
+    }
+   
+    .ourproducts h2{
+        margin-left: 30%;
+        padding-top: 5%;
+        font-weight: 50px;
+    }
+    .ourproducts p{
+        margin-top: 5%;
+        margin-left: 5%;
+        text-transform: capitalize;
+        font-weight: 50px;
+        width: 500px;
+        letter-spacing: 2px;
+        
+    }
+    .product{
+         display: block; 
+         margin-left:8%; 
+         margin-top: 3%;
+          
+    }
+    .product1{
+        background-color: white;
+        color: hsl(0, 0%, 0%);
+        width: 450px;
+        height: 500px;
+        margin-left: 1%;
+        border: 1px solid rgb(255, 253, 253);
+    }
+    .product2{
+        background-color: white;
+        color: hsl(0, 0%, 0%);
+        width: 450px;
+        height: 500px;
+        border: 1px solid rgb(255, 253, 253);
+        margin-top: 2%;
+    }
+    .product3{
+        background-color: white;
+        color: hsl(0, 0%, 0%);
+        width: 450px;
+        height: 500px;
+        border: 1px solid rgb(255, 253, 253);
+        margin-top: 3%;
+    }
+    .button button{
+   
+        text-transform: uppercase;
+        border-radius: 50px;
+        width: 200px;
+        height: 30px;
+        border: none;
+        background-color: rgb(214, 102, 22);
+    }
+    .blog{
+        margin-top: 5%;
+        
+      
+    }
+    .blog h1{
+    margin-left:15%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+    
+    }
+    .blog h2{
+        margin-top: 3%;
+        margin-left:2%;
+        font-size: 15px;
+        width: 500px;
+        text-align:start;
+       
+    }
+    .blog p{
+        margin-top: 3%;
+        margin-left:0;
+        font-size: 20px;
+        width: 200px;
+        text-align:center;
+       
+    }
+    .blog1{
+         margin-top: 5%;
+         margin-left:15%;
+         width: 130px;
+    }
+    .blog1 img{
+        width: 400px;
+    }
+    .blog1 h1{
+        margin-left: 3%;
+        width: 400px;
+        font-size: 20px;
+        letter-spacing: normal;
+        text-transform: capitalize;
+    }
+    .blog1 h1:hover{
+        color: chocolate;
+    }
+    hr{
+        margin-top:3%;
+         border-color:black;
+         width: 400px;
+
+    }
+    .fonts{
+        display: flex;
+        margin-left:2%;
+        margin-top: 3%;
+    }
+    .fonts button{
+        width: 200px;
+        text-transform: capitalize;
+        background-color: chocolate;
+        border-radius: 20px;
+        border: none;
+    }
+    .fonts button:hover{
+        background-color: white;
+    }
+    .fonts li{
+        list-style: none;
+        margin-left: 60%;
+    }
+    .logo{
+        display: flex;
+        margin-top: 2%;
+    }
+    
+    .both{
+        text-transform: capitalize;
+    }
+    .both li{
+        list-style: none;
+    }
+    .both p{
+        margin-left: 0;
+        margin-top: 0;
+        text-transform: capitalize;
+       
+    }
+    .map p{
+        margin-top: 3%;
+        width:100%;
+        position:absolute;
+    }
+    .map iframe{
+        width: 100%;
+        height: 700px;
+    }
+    .two{
+        position:absolute;
+      margin-left: 20%;
+      display: block;
+      margin-top: 5%;
+      background-color: white;
+      height: 650px;
+     
+    }
+    .one{
+        /*border-right: 2px solid black;*/
+        width: 300px;
+    }
+    .one h1{
+        margin-top: 15%;
+        text-transform: capitalize;
+        margin-left: 5%;
+        font-family: cursive;
+    
+    }
+    .one p{
+        width: 140px;
+        margin-left: 35%;
+        margin-top: 3%;
+        text-transform: capitalize;
+    }
+    .one h4{
+        margin-left: 35%;
+    }
+    .get{
+        width: 200px;
+    padding-left: 10%;
+    }
+
+    
+    .hole{
+        position: relative;
+        margin-top: 130%;
+        background-color:#554940;
+        display: block;
+    height:400px;
+    }
+    .hole1{
+        margin-top: 2%;
+        width: 250px;
+        margin-left: 25%;
+        color: aliceblue;
+        
+    }
+    .bothside{
+        margin-top: 5%;
+        display: flex;
+       
+    }
+    .side2{
+        margin-left: 19%;
+    }
+    .hole1 li{
+        list-style: none;
+        text-transform: capitalize;
+    }
+    .hole1 li:hover{
+        color: rgb(128, 72, 33);
+    }
+    .hole2{
+        margin-top: 2%;
+        width: 250px;
+        margin-left: 25%;
+        color: aliceblue;
+    
+    }
+    .hole2 p{
+        margin-top: 3%;
+    }
+    .hole3{
+        margin-top: 2%;
+        width: 250px;
+        margin-left: 25%;
+        color: aliceblue;
+    
+    }
+    .hole3 i{
+        background-color: gray;
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+    .hole i:hover{
+        background-color: rgb(114, 56, 14);
+    }
+}
+    @media only screen and (max-width:480px)
+    {.nav{
+        display: flex;
+        background-color: rgb(133, 57, 2);
+        background-position: fixed;
+        width: 100%;
+        height: 70px;
+    }
+    .nav-links{
+        margin-left: 5%;
+        margin-top: 1.5%;
+        width: 100%
+    }
+    .nav-links a{
+        text-decoration: none;
+        margin-left:1%;
+        color: white;
+        text-transform: capitalize;
+        font-size: 10px;
+       
+    }
+    .nav-links button{
+        margin-left:3%;
+        width: 45px;
+        height: 20px;
+        border-radius: 10px;
+        background-color: chocolate;
+        border: none;
+    }
+    .nav img{
+        width: 80px;
+         margin-left:3%;
+         height: 30px;
+         margin-top: 1%;
+        
+    }
+    .weareyou{
+        padding-top: 195%;
+        width: 100%;
+        background-color: aqua;
+        display: block;
+    }
+    .right{
+        display: flex;
+        margin-top: 7%;
+        margin-left: 1%;
+    }
+    .image1 img{
+        width: 90%;
+       
+    }
+    .left{
+        margin-top: 5%;
+        width: 100%;
+        /*background-color: blue;*/
+    
+    }
+    .ourservice h1{
+        margin-top: 40%;
+        margin-left: 10%;
+        text-transform:uppercase;
+        letter-spacing: 2px;
+        font-size: 40px;
+        font-family:cursive;
+        color: white;
+    }
+    .ourservice p{
+        margin-left: 10%;
+        width: 300px;
+        margin-top: 2%;
+        color: aliceblue;
+        letter-spacing: 2px;
+        font-size: 20px;
+        
+        
+    }
+    .fourbox{
+        background-image: url('images/banner11.png');
+        width: 100%;
+        background-repeat: no-repeat;
+       
+        
+        
+     }
+     .part{
+         display: flex;
+         margin-top: 5%;
+     }
+     .innerfour{
+         width: 50%;
+         height: 200px;
+        height: 400px;
+        margin-left: 2%;
+     }
+     .innerfour img{
+         margin-left: 35%;
+         width: 25%;
+     }
+     .innerfour a{
+         text-decoration: none;
+         color: black;
+         margin-left:1%;
+         font-weight: bolder;
+         font-size: 15px;
+         text-transform: uppercase;
+         color: white;
+     }
+     .innerfour a:hover{
+         color: orangered;
+     }
+     .innerfour p{
+         margin-top: 10%;
+         width: 150px;
+         margin-left: 2%;
+         line-height: 20px;
+         color: white;
+         font-size: 10px;
+         letter-spacing: 2px;
+     }
+     .ourproducts{
+        background-image: url('images/banner4.png');
+        margin-top: 10%;
+        background-repeat: no-repeat;
+       background-size: cover;
+        color:white;
+        
+    }
+    
+    .ourproducts h2{
+        margin-left: 10%;
+        padding-top: 5%;
+        font-weight: 50px;
+    }
+    .ourproducts p{
+        margin-top: 5%;
+        margin-left:5%;
+        text-transform: capitalize;
+        font-size: 15px;
+        width: 250px;
+        letter-spacing: 2px;
+        
+    }
+    .product{
+         display: block; 
+         margin-left:0; 
+         margin-top: 3%;
+          
+    }
+    .product1{
+        background-color: white;
+        color: hsl(0, 0%, 0%);
+        width: 350px;
+        height: 500px;
+        border: 1px solid rgb(255, 253, 253);
+    }
+    .map p{
+        margin-top: 3%;
+        width:100%;
+        position:absolute;
+    }
+    .map iframe{
+        width: 100%;
+        height: 700px;
+    }
+    .two{
+        position:absolute;
+      margin-left: 20%;
+      display: block;
+      margin-top: 5%;
+      background-color: white;
+      height: 650px;
+     
+    }
+    .one{
+        /*border-right: 2px solid black;*/
+        width: 300px;
+    }
+    .one h1{
+        margin-top: 15%;
+        text-transform: capitalize;
+        margin-left: 5%;
+        font-family: cursive;
+    
+    }
+    .one p{
+        width: 140px;
+        margin-left: 35%;
+        margin-top: 3%;
+        text-transform: capitalize;
+    }
+    .one h4{
+        margin-left: 35%;
+    }
+    .get{
+        width: 200px;
+    padding-left: 10%;
+    }
+
+    
+    .hole{
+        position: relative;
+        margin-top: 180%;
+        background-color:#554940;
+        display: block;
+    height:400px;
+    }
+    .hole1{
+        margin-top: 2%;
+        width: 250px;
+        margin-left: 25%;
+        color: aliceblue;
+        
+    }
+    .bothside{
+        margin-top: 5%;
+        display: flex;
+       
+    }
+    .side2{
+        margin-left: 19%;
+    }
+    .hole1 li{
+        list-style: none;
+        text-transform: capitalize;
+    }
+    .hole1 li:hover{
+        color: rgb(128, 72, 33);
+    }
+    .hole2{
+        margin-top: 2%;
+        width: 250px;
+        margin-left: 25%;
+        color: aliceblue;
+    
+    }
+    .hole2 p{
+        margin-top: 3%;
+    }
+    .hole3{
+        margin-top: 2%;
+        width: 250px;
+        margin-left: 25%;
+        color: aliceblue;
+    
+    }
+    .hole3 i{
+        background-color: gray;
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+    .hole i:hover{
+        background-color: rgb(114, 56, 14);
+    }
+    .product2{
+        background-color: white;
+        color: hsl(0, 0%, 0%);
+        width: 350px;
+        height: 500px;
+        border: 1px solid rgb(255, 253, 253);
+        margin-left: 3%;
+    }
+    .product1 h1{
+        margin-left: 35%;
+        margin-top: 3%;
+    }
+    .product1 h5{
+        width: 200px;
+        margin-left:20%;
+        margin-top: 3%;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        line-height: 20px;
+        text-align: center;
+    
+    }
+    .product2 img{
+        width: 350px;
+        
+       top: 0;
+      }
+      .product2 h1{
+          margin-left: 30%;
+          margin-top: 3%;
+          text-transform: uppercase;
+      }
+      .product2 h5{
+          width: 200px;
+          margin-left:20%;
+          margin-top: 3%;
+          text-transform: capitalize;
+          letter-spacing: 2px;
+          line-height: 20px;
+
+          text-align: center;
+      
+      }
+      .url{
+          display: flex;
+      }
+      .url li{
+          list-style: none;
+          margin-left: 20%;
+          margin-top: 5%;
+      }
+      .product3{
+          background-color: white;
+          color: hsl(0, 0%, 0%);
+          width: 350px;
+          height: 500px;
+          border: 1px solid rgb(255, 253, 253);
+          margin-left:3%;
+      }
+      .product3 img{
+        width: 320px;
+       
+      }
+      .product3 h1{
+          margin-left: 35%;
+          margin-top: 3%;
+          text-transform: uppercase;
+      }
+      .product3 h5{
+          width: 200px;
+          margin-left: 20%;
+          margin-top: 3%;
+          text-transform: capitalize;
+          letter-spacing: 2px;
+          line-height: 20px;
+            text-align: center;
+      }
+      .button .button{
+        margin-left: 10%;
+      }
+      .blog{
+        margin-top: 5%;
+        background-color: aqua;
+        width: 100%;
+      
+    }
+    .blog h1{
+    margin-left:8%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    
+    }
+    .blog h2{
+       
+        text-align: center;
+        width: 200px;
+        font-size:10px;
+        margin-left: 25%;
+    }
+    .blog p{
+        margin-top: 3%;
+        margin-left:0;
+        font-size: 20px;
+        width:350px;
+    }
+    .blog1{
+         margin-top: 5%;
+         margin-left: 10%;
+         
+
+    }
+    .blog1 img{
+        width: 330px;
+    }
+    .blog1 h1{
+        margin-left: 3%;
+        letter-spacing: normal;
+        text-transform: capitalize;
+        font-size: 10px;
+
+    }
+    .blog1 h1:hover{
+        color: chocolate;
+    }
+    hr{
+        margin-top:3%;
+         border-color:black;
+         width: 300px;
+         
+    }
+    .fonts{
+        display: flex;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    .fonts button{
+        width: 100px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-transform: capitalize;
+        background-color: chocolate;
+        border-radius: 20px;
+        border: none;
+    }
+    .fonts button:hover{
+        background-color: white;
+    }
+    .fonts li{
+        list-style: none;
+        margin-left:5%;
+    }
+    .logo{
+        display: flex;
+        margin-top: 2%;
+    }
+    
+    .both{
+        text-transform: capitalize;
+    }
+    .both li{
+        list-style: none;
+    }
+    .both p{
+        width: 200px;
+        margin-left: 0;
+        text-align:start;
+        margin-top: 0;
+        font-size: 15px;
+       
+    }
+    .ourservice button{
+        margin-left: 10%;
+        margin-top: 2%;
+        width: 190px;
+        height: 40px;
+        border-radius: 30px;
+        border: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        background-color: rgb(216, 96, 10);
+    
+    }
+    .button{
+        margin-left: 5%;
+    }
+    .button button{
+        margin-left:2%;
+        text-transform: uppercase;
+        border-radius: 50px;
+        width: 200px;
+        height: 50px;
+        background-color: rgb(214, 102, 22);
+    }
+    
+    html{
+        scroll-padding: 5rem;
+    }
+    
+    
+    
+    }
+        
